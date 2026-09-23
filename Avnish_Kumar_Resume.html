@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avnish Kumar - .NET Developer Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+            color: #222222;
+            line-height: 1.45;
+            background-color: #f4f6f8;
+            padding: 20px;
+        }
+        .resume-page {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 44px 46px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #1a365d;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #1a365d;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+        .contact-info {
+            font-size: 10.2pt;
+            color: #4a5568;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px 16px;
+        }
+        .contact-info a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #1a365d;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 1px solid #cbd5e0;
+            padding-bottom: 3px;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 10.2pt;
+            color: #2d3748;
+        }
+        .summary-text {
+            text-align: justify;
+        }
+        .skills-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 4.5px;
+        }
+        .skill-item {
+            font-size: 10.2pt;
+        }
+        .skill-item strong {
+            color: #1a202c;
+        }
+        .entry {
+            margin-bottom: 12px;
+        }
+        .entry:last-child {
+            margin-bottom: 0;
+        }
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+        .entry-title {
+            font-size: 10.8pt;
+            font-weight: 700;
+            color: #1a202c;
+        }
+        .tech-tag {
+            font-style: italic;
+            font-weight: 500;
+            color: #4a5568;
+            font-size: 9.8pt;
+        }
+        .entry-meta {
+            font-size: 9.8pt;
+            color: #718096;
+            white-space: nowrap;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 18px;
+            margin-top: 4px;
+        }
+        li {
+            margin-bottom: 4px;
+            text-align: justify;
+        }
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .resume-page {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            @page {
+                margin: 10mm 14mm;
+                size: A4;
+            }
+        }
+        .download-bar {
+            max-width: 820px;
+            margin: 0 auto 15px auto;
+            text-align: center;
+        }
+        .btn-download {
+            background-color: #1a365d;
+            color: #ffffff;
+            font-size: 14pt;
+            font-weight: bold;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .btn-download:hover {
+            background-color: #2b6cb0;
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="download-bar no-print">
+    <button class="btn-download" onclick="window.print()">📥 Click Here to Download PDF (Save as PDF)</button>
+    <p style="margin-top: 6px; color: #555; font-size: 10pt;">(Clicking the button will open the save window. Select <b>Save as PDF</b> and click Save)</p>
+</div>
+
+<div class="resume-page">
+    <header>
+        <h1>Avnish Kumar</h1>
+        <div class="contact-info">
+            <span>📍 Hyderabad, Telangana, India</span>
+            <span>📞 +91 8810516711</span>
+            <span>✉️ <a href="mailto:avnish241998@gmail.com">avnish241998@gmail.com</a></span>
+            <span>🔗 <a href="https://www.linkedin.com/in/avnish-kumar-3a1671275" target="_blank">linkedin.com/in/avnish-kumar-3a1671275</a></span>
+            <span>💻 <a href="https://github.com/RajputAvnishKumar" target="_blank">github.com/RajputAvnishKumar</a></span>
+        </div>
+    </header>
+
+    <section>
+        <div class="section-title">Professional Summary</div>
+        <p class="summary-text">
+            Results-driven <strong>.NET Full Stack Developer</strong> with 8 months of comprehensive training in designing, developing, and deploying robust web applications. Skilled in <strong>C#, ASP.NET Core, ASP.NET MVC, Entity Framework Core, RESTful APIs</strong>, and <strong>Microsoft SQL Server</strong>. Solid foundation in Object-Oriented Programming (OOP), MVC architecture, and database design. Adept at building responsive, data-driven web solutions and enthusiastic about contributing problem-solving capabilities to dynamic software development teams.
+        </p>
+    </section>
+
+    <section>
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-item"><strong>Programming Languages:</strong> C#, SQL, JavaScript</div>
+            <div class="skill-item"><strong>Frameworks & Backend:</strong> .NET Core, .NET Framework, ASP.NET MVC, ASP.NET Web API (RESTful Services)</div>
+            <div class="skill-item"><strong>ORM & Databases:</strong> Entity Framework Core (EF Core), LINQ, Microsoft SQL Server (T-SQL)</div>
+            <div class="skill-item"><strong>Web & UI Technologies:</strong> HTML5, CSS3, Bootstrap 5, jQuery, AJAX</div>
+            <div class="skill-item"><strong>Core Concepts:</strong> Object-Oriented Programming (OOP), MVC Architecture, Database Design (DBMS), CRUD Operations</div>
+            <div class="skill-item"><strong>Development Tools:</strong> Visual Studio 2022, VS Code, Git, GitHub, IIS (Internet Information Services)</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">Key Projects</div>
+        
+        <div class="entry">
+            <div class="entry-header">
+                <div>
+                    <span class="entry-title">EmployeePortal</span>
+                    <span class="tech-tag"> | ASP.NET MVC, C#, EF Core, SQL Server, Bootstrap 5</span>
+                </div>
+            </div>
+            <div style="font-size: 9.8pt; color: #2b6cb0; margin-top: 1px; margin-bottom: 4px;">
+                <strong>GitHub:</strong> <a href="https://github.com/RajputAvnishKumar/Employee-Portal" target="_blank" style="color: #2b6cb0; text-decoration: none;">github.com/RajputAvnishKumar/Employee-Portal</a>
+            </div>
+            <ul>
+                <li>Designed and developed a responsive full-stack web application to automate employee records, department tracking, and role management.</li>
+                <li>Implemented complete <strong>CRUD</strong> operations with server-side Model validations and client-side jQuery validation.</li>
+                <li>Leveraged <strong>Entity Framework Core (Code-First)</strong> for efficient database migrations, relationship modeling, and schema management in SQL Server.</li>
+                <li>Wrote optimized <strong>LINQ</strong> queries and Stored Procedures for high-performance data retrieval and transaction integrity.</li>
+                <li>Crafted dynamic, mobile-friendly interfaces using Bootstrap 5 and integrated AJAX for smooth asynchronous data updates without page reloads.</li>
+            </ul>
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="section-title">Training & Certification</div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Dot Net Full Stack Development (8 Months Intensive Training)</span>
+                <span class="entry-meta">Hyderabad, India</span>
+            </div>
+            <p style="font-style: italic; color: #4a5568; margin-top: 1px;">Naresh i Technologies</p>
+            <ul>
+                <li>Comprehensive hands-on training covering C#, ASP.NET MVC, Entity Framework Core, RESTful Web API, SQL Server Database Design, and Frontend development.</li>
+                <li>Built real-world academic applications applying OOP principles, design patterns, and database normalization.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">Education</div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Bachelor of Science (B.Sc.) - Physics (Honors)</span>
+                <span class="entry-meta">Bihar, India</span>
+            </div>
+            <p style="color: #4a5568;">Jai Prakash (J. P.) University</p>
+        </div>
+        <div class="entry" style="margin-top: 5px;">
+            <div class="entry-header">
+                <span class="entry-title">Higher Secondary Certificate (HSC) - Science</span>
+                <span class="entry-meta">Bihar, India</span>
+            </div>
+            <p style="color: #4a5568;">P.D.D.U. Inter College, Khajuriya</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">Hobbies & Interests</div>
+        <p>Playing Cricket, Reading Storybooks</p>
+    </section>
+</div>
+
+<script>
+    // Automatically trigger Print / Save as PDF when opened
+    window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => {
+            window.print();
+        }, 600);
+    });
+</script>
+
+</body>
+</html>
